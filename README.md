@@ -9,7 +9,7 @@
 *   **Student:** Self-service portal to view personal risk status, grades, attendance, and alerts.
 
 ## 🛠️ Tech Stack
-*   **Backend:** Laravel 12 (PHP 8.2)
+*   **Backend:** Laravel 12 (PHP 8.2.35)
 *   **Database:** MySQL (for derived data)
 *   **Mock API:** Node.js & json-server (for raw academic data)
 *   **AI Engine:** Google AI Studio (Gemini)
@@ -17,7 +17,7 @@
 
 ## 💻 System Requirements
 Before running this project, ensure you have the following installed:
-*   [XAMPP](https://www.apachefriends.org/) (PHP 8.2 or newer, MySQL)
+*   [XAMPP](https://www.apachefriends.org/) (PHP 8.2.35, MySQL)
 *   [Node.js](https://nodejs.org/) (LTS version)
 *   [Composer](https://getcomposer.org/)
 
