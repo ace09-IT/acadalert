@@ -1,0 +1,301 @@
+
+
+:root {
+    /* CHANGED: Shared OCEAN palette for application chrome and chart accents. */
+    --ocean-darkest: #0D1B2A;
+    --ocean-primary: #1B4965;
+    --ocean-accent: #29ADB2;
+    --ocean-soft: #A8DADC;
+    --ocean-lightest: #E6F4F1;
+    /* CHANGED: RGB channels let component states share the exact OCEAN swatches. */
+    --ocean-primary-rgb: 27, 73, 101;
+    --ocean-accent-rgb: 41, 173, 178;
+    --ocean-soft-rgb: 168, 218, 220;
+    /* CHANGED: Route Bootstrap primary controls and links through OCEAN. */
+    --bs-primary: var(--ocean-primary);
+    --bs-primary-rgb: var(--ocean-primary-rgb);
+    --bs-link-color: var(--ocean-primary);
+    --bs-link-hover-color: #146f7b;
+    --bs-focus-ring-color: rgba(41, 173, 178, 0.28);
+
+    --app-sidebar-bg: linear-gradient(180deg, var(--ocean-darkest) 0%, var(--ocean-primary) 100%);
+    --app-sidebar-end: var(--ocean-primary);
+
+    --app-navbar-bg: linear-gradient(135deg, var(--ocean-darkest) 0%, var(--ocean-primary) 100%);
+    --app-navbar-fg: #eaf1ff;
+    --app-navbar-muted: rgba(230, 244, 241, 0.78);
+    --app-navbar-hairline: rgba(168, 218, 220, 0.2);
+    --app-navbar-corner-light: rgba(41, 173, 178, 0.2);
+    --app-navbar-control-hover: rgba(168, 218, 220, 0.14);
+    --app-navbar-control-ring: rgba(168, 218, 220, 0.38);
+    --app-navbar-shadow: 0 18px 40px -26px rgba(2, 6, 23, 0.9);
+    --app-accent-glow: rgba(var(--ocean-accent-rgb), 0.38);
+    --app-accent-glow-soft: rgba(var(--ocean-accent-rgb), 0.16);
+    --app-accent-focus: rgba(var(--ocean-accent-rgb), 0.28);
+
+    --app-logo-lockup-shadow:
+        drop-shadow(0 0 1.5px rgba(255, 255, 255, 0.90))
+        drop-shadow(0 0 12px rgba(160, 200, 255, 0.50));
+    --app-logo-navbar-shadow:
+        drop-shadow(0 0 1px rgba(255, 255, 255, 0.85))
+        drop-shadow(0 0 7px rgba(160, 200, 255, 0.45));
+}
+
+:root,
+:root.theme-dark {
+    color-scheme: dark;
+
+    /* CHANGED: Theme surfaces now derive from OCEAN while preserving dark contrast. */
+    --bs-primary: var(--ocean-primary);
+    --bs-primary-rgb: var(--ocean-primary-rgb);
+    --bs-link-color: var(--ocean-soft);
+    --bs-link-hover-color: var(--ocean-accent);
+    --app-accent-glow: rgba(var(--ocean-accent-rgb), 0.38);
+    --app-accent-glow-soft: rgba(var(--ocean-accent-rgb), 0.16);
+    --app-accent-focus: rgba(var(--ocean-accent-rgb), 0.34);
+    --bs-table-striped-bg: rgba(var(--ocean-soft-rgb), 0.055);
+    --app-body-bg: var(--ocean-darkest);
+    --app-body-color: #dce8e9;
+
+    --app-surface: #132b3b;
+    --app-border: #294655;
+    --app-border-strong: #3b6677;
+    --app-border-subtle: rgba(168, 218, 220, 0.13);
+
+    --app-table-head-bg: var(--ocean-darkest);
+    --app-table-head-fg: var(--ocean-soft);
+    --app-table-head-border: #294655;
+    --app-table-row-hover: rgba(255, 255, 255, 0.04);
+
+    --app-heading-color: #f1f8f7;
+    --app-label-color: #c1d5d7;
+    --app-muted-color: #a8bec1;
+    --app-faint-color: #5b6274;
+    --app-hover-bg: #1b3a4b;
+
+    --app-scrollbar-track: #102431;
+    --app-scrollbar-thumb: #3b6677;
+    --app-scrollbar-thumb-hover: #4d8091;
+
+    --app-alert-success-bg: rgba(25, 135, 84, 0.16);
+    --app-alert-success-fg: #75b798;
+    --app-alert-danger-bg: rgba(220, 53, 69, 0.16);
+    --app-alert-danger-fg: #ea868f;
+    --app-alert-warning-bg: rgba(255, 193, 7, 0.14);
+    --app-alert-warning-fg: #ffda6a;
+    --app-alert-info-bg: rgba(13, 202, 240, 0.14);
+    --app-alert-info-fg: #6edff6;
+
+    --app-ah-veil-top: rgba(9, 13, 26, 0.93);
+    --app-ah-veil-bottom: rgba(9, 12, 24, 0.88);
+    --app-ah-wash: rgba(41, 173, 178, 0.16);
+    --app-ah-glow-core: rgba(41, 173, 178, 0.45);
+    --app-ah-glow-halo: rgba(27, 73, 101, 0.34);
+
+    --app-escalation-veil-top: rgba(9, 13, 26, 0.94);
+    --app-escalation-veil-bottom: rgba(9, 12, 24, 0.90);
+    --app-escalation-wash: rgba(231, 74, 59, 0.14);
+
+    --app-reset-veil-top: rgba(9, 13, 26, 0.94);
+    --app-reset-veil-bottom: rgba(9, 12, 24, 0.90);
+    --app-reset-wash: rgba(246, 194, 62, 0.16);
+
+    --app-tint-danger: rgba(231, 74, 59, 0.20);
+    --app-tint-warning: rgba(246, 194, 62, 0.17);
+    --app-tint-success: rgba(31, 178, 107, 0.20);
+    --app-tint-info: rgba(41, 173, 178, 0.16);
+    --app-tint-primary: rgba(41, 173, 178, 0.16);
+    --app-tint-secondary: rgba(148, 163, 184, 0.18);
+    --app-tint-light: rgba(255, 255, 255, 0.07);
+}
+
+:root.theme-light {
+    color-scheme: light;
+
+    /* CHANGED: OCEAN light surfaces keep dark text and readable borders. */
+    --app-accent-glow: rgba(var(--ocean-primary-rgb), 0.22);
+    --app-accent-glow-soft: rgba(var(--ocean-accent-rgb), 0.1);
+    --app-accent-focus: rgba(var(--ocean-primary-rgb), 0.22);
+    --bs-table-striped-bg: rgba(var(--ocean-accent-rgb), 0.055);
+    --app-body-bg: var(--ocean-lightest);
+    --app-body-color: #193543;
+
+    --app-surface: #ffffff;
+    --app-border: #c6e2e1;
+    --app-border-strong: #9bcbd0;
+    --app-border-subtle: rgba(27, 73, 101, 0.12);
+
+    --app-table-head-bg: var(--ocean-lightest);
+    --app-table-head-fg: var(--ocean-primary);
+    --app-table-head-border: #c6e2e1;
+    --app-table-row-hover: #edf7f5;
+
+    --app-heading-color: #0D1B2A;
+    --app-label-color: #294655;
+    --app-muted-color: #536e78;
+    --app-faint-color: #9bb3b8;
+    --app-hover-bg: #d9eeeb;
+
+    --app-scrollbar-track: #e6f4f1;
+    --app-scrollbar-thumb: #a8c9cc;
+    --app-scrollbar-thumb-hover: #7daeb4;
+
+    --app-alert-success-bg: #d4edda;
+    --app-alert-success-fg: #155724;
+    --app-alert-danger-bg: #f8d7da;
+    --app-alert-danger-fg: #721c24;
+    --app-alert-warning-bg: #fff3cd;
+    --app-alert-warning-fg: #856404;
+    --app-alert-info-bg: #d1ecf1;
+    --app-alert-info-fg: #0c5460;
+
+    --app-ah-veil-top: rgba(248, 249, 252, 0.95);
+    --app-ah-veil-bottom: rgba(233, 238, 247, 0.90);
+    --app-ah-wash: rgba(41, 173, 178, 0.1);
+    --app-ah-glow-core: rgba(27, 73, 101, 0.28);
+    --app-ah-glow-halo: rgba(41, 173, 178, 0.18);
+
+    --app-escalation-veil-top: rgba(249, 250, 252, 0.95);
+    --app-escalation-veil-bottom: rgba(233, 238, 247, 0.91);
+    --app-escalation-wash: rgba(231, 74, 59, 0.08);
+
+    --app-reset-veil-top: rgba(249, 250, 252, 0.95);
+    --app-reset-veil-bottom: rgba(233, 238, 247, 0.91);
+    --app-reset-wash: rgba(246, 194, 62, 0.10);
+
+    --app-tint-danger: rgba(220, 53, 69, 0.11);
+    --app-tint-warning: rgba(255, 193, 7, 0.16);
+    --app-tint-success: rgba(25, 135, 84, 0.11);
+    --app-tint-info: rgba(41, 173, 178, 0.11);
+    --app-tint-primary: rgba(27, 73, 101, 0.09);
+    --app-tint-secondary: rgba(108, 117, 125, 0.11);
+    --app-tint-light: rgba(0, 0, 0, 0.03);
+}
+
+
+.theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    /* CHANGED: use the navbar group's shared gap instead of extra button margins. */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 999px;
+    /* CHANGED: Match theme controls to the OCEAN navbar accents. */
+    background: rgba(168, 218, 220, 0.1);
+    color: var(--app-navbar-fg);
+    line-height: 1;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 1px var(--app-navbar-control-ring);
+    transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus,
+.theme-toggle:focus-visible {
+    background: var(--app-navbar-control-hover);
+    color: #ffffff;
+    outline: none;
+}
+
+.theme-toggle:focus-visible {
+    box-shadow:
+        inset 0 0 0 1px rgba(168, 218, 220, 0.55),
+        0 0 0 2px rgba(41, 173, 178, 0.7);
+}
+
+.theme-toggle i {
+    font-size: 1.05rem;
+}
+
+.theme-toggle .theme-toggle-icon-sun { display: inline-block; }
+.theme-toggle .theme-toggle-icon-moon { display: none; }
+
+:root.theme-light .theme-toggle .theme-toggle-icon-sun { display: none; }
+:root.theme-light .theme-toggle .theme-toggle-icon-moon { display: inline-block; }
+
+
+.navbar .student-bell-toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    border-radius: 999px;
+    color: var(--app-navbar-fg);
+    line-height: 1;
+    box-shadow: inset 0 0 0 1px var(--app-navbar-control-ring);
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.navbar .student-bell-toggle:hover,
+.navbar .student-bell-toggle:focus,
+.navbar .student-bell-toggle:focus-visible {
+    color: #ffffff;
+    background-color: var(--app-navbar-control-hover);
+    outline: none;
+}
+
+.navbar .student-bell-toggle:focus-visible {
+    box-shadow:
+        inset 0 0 0 1px rgba(168, 218, 220, 0.55),
+        0 0 0 2px rgba(41, 173, 178, 0.7);
+}
+
+.navbar .student-bell-toggle.show {
+    color: #ffffff;
+    background-color: rgba(41, 173, 178, 0.24);
+}
+
+.navbar .student-bell-toggle i {
+    /* CHANGED: absolutely center the bell glyph independently of inline font metrics. */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 1em;
+    height: 1em;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    text-align: center;
+    font-size: 1.05rem;
+}
+
+.navbar .student-bell-count {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    min-width: 18px;
+    padding: 0 4px;
+    border-radius: 999px;
+    background-color: #dc3545;
+    color: #ffffff;
+    font-size: 0.68rem;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    box-shadow: 0 0 0 2px var(--ocean-primary);
+}
+
+
+:root.theme-dark .bg-light {
+    background-color: var(--bs-tertiary-bg) !important;
+}
+
+:root.theme-dark .bg-light.text-dark {
+    color: var(--bs-body-color) !important;
+}
+
+:root.theme-dark #gradingPeriodSelect {
+    background-color: var(--bs-body-bg) !important;
+    border-color: var(--bs-border-color) !important;
+    color: var(--bs-body-color);
+}

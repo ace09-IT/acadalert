@@ -1,0 +1,321 @@
+program_code,year_level,semester,subject_code,subject_name
+BSIT,1,1,ITP101,Computer Programming 1 (Java/Python)
+BSIT,1,1,ITC101,Computer Systems Overview
+BSIT,1,1,ITD101,Digital Logic Design
+BSIT,1,1,ITM101,Basic Mathematics for IT
+BSIT,1,2,ITP102,Computer Programming 2 (OOP)
+BSIT,1,2,ITD102,Data Structures & Algorithms
+BSIT,1,2,ITD103,Database Management 1
+BSIT,1,2,ITW101,Web Development 1 (HTML/CSS)
+BSIT,2,1,ITP201,Object-Oriented Programming
+BSIT,2,1,ITM201,Discrete Mathematics
+BSIT,2,1,ITH201,Human-Computer Interaction
+BSIT,2,1,ITN201,Networking 1 (Cisco/OSI)
+BSIT,2,2,ITM202,Information Management
+BSIT,2,2,ITS201,System Analysis & Design
+BSIT,2,2,ITN202,Networking 2 (Routing/Switching)
+BSIT,2,2,ITW202,Web Development 2 (PHP/JS)
+BSIT,3,1,ITS301,System Administration
+BSIT,3,1,ITS302,IT Security Fundamentals
+BSIT,3,1,ITM301,Mobile App Development 1
+BSIT,3,1,ITQ301,Quantitative Methods/Statistics
+BSIT,3,2,ITN301,Network Security
+BSIT,3,2,ITP301,Platform Technologies
+BSIT,3,2,ITM302,Mobile App Development 2
+BSIT,3,2,ITE301,Technopreneurship
+BSIT,4,1,ITP401,IT Project Management
+BSIT,4,1,ITS401,Social & Professional Issues
+BSIT,4,1,ITI401,Integrative Programming
+BSIT,4,1,ITE401,Elective 1 (e.g., Data Science)
+BSIT,4,2,ITC401,Capstone Project 1 (Research/Thesis)
+BSIT,4,2,ITP402,Practicum (OJT)
+BSIT,4,2,ITC402,Cybersecurity or Networking Track
+BSIT,4,2,ITE402,Elective 2 (e.g., Cloud Computing)
+BSCS,1,1,CSP101,Fundamentals of Programming
+BSCS,1,1,CSC101,Calculus 1 (Limits/Derivatives)
+BSCS,1,1,CSC102,Computer Systems Fundamentals
+BSCS,1,1,CSC103,Digital Design
+BSCS,1,2,CSP102,Advanced Programming (C++)
+BSCS,1,2,CSC104,Calculus 2 (Integrals)
+BSCS,1,2,CSC105,Discrete Structures 1
+BSCS,1,2,CSC106,Database Systems
+BSCS,2,1,CSP201,Data Structures & Algorithms
+BSCS,2,1,CSC201,Discrete Structures 2
+BSCS,2,1,CSC202,Linear Algebra
+BSCS,2,1,CSC203,Object-Oriented Analysis
+BSCS,2,2,CSC204,Algorithm Complexity
+BSCS,2,2,CSC205,Probability & Statistics
+BSCS,2,2,CSC206,Computer Architecture
+BSCS,2,2,CSC207,Logic Design & Switching
+BSCS,3,1,CSC301,Automata Theory
+BSCS,3,1,CSC302,Programming Languages
+BSCS,3,1,CSC303,Operating Systems
+BSCS,3,1,CSC304,Software Engineering 1
+BSCS,3,2,CSC305,Compiler Design
+BSCS,3,2,CSC306,Computer Networks
+BSCS,3,2,CSC307,Numerical Methods
+BSCS,3,2,CSC308,Software Engineering 2
+BSCS,4,1,CSC401,Machine Learning Fundamentals
+BSCS,4,1,CSC402,Human-Computer Interaction
+BSCS,4,1,CSC403,Information Assurance
+BSCS,4,1,CSC404,Elective (AI/Robotics)
+BSCS,4,2,CSC405,Thesis 1 (Research Proposal)
+BSCS,4,2,CSC406,Thesis 2 (Implementation/Defense)
+BSCS,4,2,CSC407,Practicum
+BSCS,4,2,CSC408,Complex Systems Analysis
+BSAC,1,1,ACC101,Fundamentals of Accounting
+BSAC,1,1,ACC102,Basic Accounting (Part 1)
+BSAC,1,1,ACC103,Business Economics
+BSAC,1,1,ACC104,Basic Mathematics/Business Math
+BSAC,1,2,ACC105,Conceptual Frameworks (CFAS)
+BSAC,1,2,ACC106,Business Laws (Obligation & Contracts)
+BSAC,1,2,ACC107,Management Accounting (Costs)
+BSAC,1,2,ACC108,Statistics for Business
+BSAC,2,1,ACC201,Intermediate Accounting 1 (Assets)
+BSAC,2,1,ACC202,Partnership & Corporation Accounting
+BSAC,2,1,ACC203,Strategic Cost Management
+BSAC,2,1,ACC204,Income Taxation
+BSAC,2,2,ACC205,Intermediate Accounting 2 (Liabilities)
+BSAC,2,2,ACC206,Business Law (Sales & Agency)
+BSAC,2,2,ACC207,Business Transfer Taxation
+BSAC,2,2,ACC208,Financial Management
+BSAC,3,1,ACC301,Intermediate Accounting 3 (Equity)
+BSAC,3,1,ACC302,Accounting Information Systems
+BSAC,3,1,ACC303,Auditing Theory
+BSAC,3,1,ACC304,Financial Markets
+BSAC,3,2,ACC305,Financial Accounting & Reporting (FAR)
+BSAC,3,2,ACC306,Advanced Financial Accounting 1
+BSAC,3,2,ACC307,Auditing Problems
+BSAC,3,2,ACC308,Management Science
+BSAC,4,1,ACC401,Advanced Financial Accounting 2
+BSAC,4,1,ACC402,Regulatory Framework for Business Transactions
+BSAC,4,1,ACC403,Ethics for Accountants
+BSAC,4,1,ACC404,Accounting Elective
+BSAC,4,2,ACC405,Auditing (Comprehensive)
+BSAC,4,2,ACC406,Practicum (OJT)
+BSAC,4,2,ACC407,Review of Financial Accounting
+BSAC,4,2,ACC408,Review of Taxation & Law
+BSBA,1,1,BBA101,Introduction to Business Management
+BSBA,1,1,BBA102,Business Economics
+BSBA,1,1,BBA103,Financial Accounting
+BSBA,1,1,BBA104,Basic Statistics
+BSBA,1,2,BBA105,Human Resource Management
+BSBA,1,2,BBA106,Principles of Marketing
+BSBA,1,2,BBA107,Managerial Accounting
+BSBA,1,2,BBA108,Business Communication
+BSBA,2,1,BBA201,Organizational Behavior
+BSBA,2,1,BBA202,Operations Management (OM)
+BSBA,2,1,BBA203,Business Laws (Obligations & Contracts)
+BSBA,2,1,BBA204,Financial Management 1
+BSBA,2,2,BBA205,Marketing Management
+BSBA,2,2,BBA206,Management Accounting
+BSBA,2,2,BBA207,Business Statistics (Advanced)
+BSBA,2,2,BBA208,Taxation (Basics)
+BSBA,3,1,BBA301,Strategic Management
+BSBA,3,1,BBA302,Production & Inventory Control
+BSBA,3,1,BBA303,Financial Management 2
+BSBA,3,1,BBA304,International Business Trade
+BSBA,3,2,BBA305,Business Ethics
+BSBA,3,2,BBA306,Feasibility Study
+BSBA,3,2,BBA307,Market Research (Marketing Majors)
+BSBA,3,2,BBA308,Elective 1 (for Finance Majors)
+BSBA,4,1,BBA401,Entrepreneurship
+BSBA,4,1,BBA402,Total Quality Management (TQM)
+BSBA,4,1,BBA403,Elective 2 (e.g., Supply Chain)
+BSBA,4,1,BBA404,Elective 3 (e.g., Digital Marketing)
+BSBA,4,2,BBA405,Strategic Business Analysis
+BSBA,4,2,BBA406,Business Practicum (OJT)
+BSBA,4,2,BBA407,Business Research/Thesis
+BSBA,4,2,BBA408,Management Consultation
+BSECE,1,1,ECE101,Calculus 1 (Differential)
+BSECE,1,1,ECE102,Analytic Geometry
+BSECE,1,1,ECE103,Engineering Drawing
+BSECE,1,1,ECE104,Computer Fundamentals
+BSECE,1,2,ECE105,Calculus 2 (Integral)
+BSECE,1,2,ECE106,Physics 1 (Mechanics)
+BSECE,1,2,ECE107,General Chemistry
+BSECE,1,2,ECE108,Solid State Devices
+BSECE,2,1,ECE201,Calculus 3 (Multivariable)
+BSECE,2,1,ECE202,Physics 2 (Electricity)
+BSECE,2,1,ECE203,Electronic Devices & Circuits
+BSECE,2,1,ECE204,Logic Circuits & Design
+BSECE,2,2,ECE205,Differential Equations
+BSECE,2,2,ECE206,Engineering Electromagnetics
+BSECE,2,2,ECE207,Network Analysis
+BSECE,2,2,ECE208,Electronics 1 (Amplifiers)
+BSECE,3,1,ECE301,Advanced Engineering Math
+BSECE,3,1,ECE302,Communications 1 (Modulation)
+BSECE,3,1,ECE303,Electronics 2 (Oscillators)
+BSECE,3,1,ECE304,Computer Architecture
+BSECE,3,2,ECE305,Digital Signal Processing (DSP)
+BSECE,3,2,ECE306,Transmission Lines & Antennas
+BSECE,3,2,ECE307,Microprocessor Systems
+BSECE,3,2,ECE308,Control Systems
+BSECE,4,1,ECE401,RF & Microwave Circuits
+BSECE,4,1,ECE402,Broadband Communications
+BSECE,4,1,ECE403,Fiber Optics
+BSECE,4,1,ECE404,Satellite Communications
+BSECE,4,2,ECE405,Practicum 1
+BSECE,4,2,ECE406,ECE Laws & Ethics
+BSECE,4,2,ECE407,Thesis/Project
+BSECE,4,2,ECE408,Professional Elective
+BSEE,1,1,EEE101,Calculus 1 & Analytic Geometry
+BSEE,1,1,EEE102,Engineering Drawing
+BSEE,1,1,EEE103,General Chemistry
+BSEE,1,1,EEE104,Computer Fundamentals
+BSEE,1,2,EEE105,Calculus 2 & Physics 1
+BSEE,1,2,EEE106,DC Circuits
+BSEE,1,2,EEE107,Solid State Devices
+BSEE,1,2,EEE108,Technical Writing
+BSEE,2,1,EEE201,Calculus 3
+BSEE,2,1,EEE202,AC Circuits
+BSEE,2,1,EEE203,Electrical Engineering Drafting
+BSEE,2,1,EEE204,Logic Circuits
+BSEE,2,2,EEE205,Differential Equations
+BSEE,2,2,EEE206,Electromagnetics
+BSEE,2,2,EEE207,Electronic Devices
+BSEE,2,2,EEE208,Measurements & Instrumentation
+BSEE,3,1,EEE301,Advanced Engineering Math
+BSEE,3,1,EEE302,AC/DC Machinery
+BSEE,3,1,EEE303,Power Systems 1 (Analysis)
+BSEE,3,1,EEE304,Industrial Electronics
+BSEE,3,2,EEE305,Power Systems 2 (Distribution)
+BSEE,3,2,EEE306,Power Plant Engineering
+BSEE,3,2,EEE307,Transmission Lines
+BSEE,3,2,EEE308,Control Engineering
+BSEE,4,1,EEE401,Substation Design
+BSEE,4,1,EEE402,Electrical Wiring Design
+BSEE,4,1,EEE403,EE Laws & Ethics
+BSEE,4,1,EEE404,Illumination Engineering
+BSEE,4,2,EEE405,Practicum
+BSEE,4,2,EEE406,Thesis 1 & 2
+BSEE,4,2,EEE407,Switchgear & Protection
+BSEE,4,2,EEE408,Renewable Energy Systems
+BSCO,1,1,COE101,Programming 1 (C++)
+BSCO,1,1,COE102,Calculus 1
+BSCO,1,1,COE103,Engineering Drawing
+BSCO,1,1,COE104,Digital Logic 1
+BSCO,1,2,COE105,Programming 2 (Data Structures)
+BSCO,1,2,COE106,Calculus 2
+BSCO,1,2,COE107,Physics for Engineers
+BSCO,1,2,COE108,Discrete Math
+BSCO,2,1,COE201,Object-Oriented Programming
+BSCO,2,1,COE202,Differential Equations
+BSCO,2,1,COE203,Digital Logic 2 (Sequential)
+BSCO,2,1,COE204,Electronics
+BSCO,2,2,COE205,Database Management
+BSCO,2,2,COE206,Computer Architecture
+BSCO,2,2,COE207,Operating Systems
+BSCO,2,2,COE208,Numerical Methods
+BSCO,3,1,COE301,Microprocessors
+BSCO,3,1,COE302,Embedded Systems
+BSCO,3,1,COE303,Networking 1
+BSCO,3,1,COE304,Algorithms
+BSCO,3,2,COE305,Compilers & Automata
+BSCO,3,2,COE306,VHDL/FPGA Design
+BSCO,3,2,COE307,Robotics Fundamentals
+BSCO,3,2,COE308,Computer Security
+BSCO,4,1,COE401,Artificial Intelligence
+BSCO,4,1,COE402,Systems Administration
+BSCO,4,1,COE403,Image Processing
+BSCO,4,1,COE404,Professional Elective
+BSCO,4,2,COE405,Capstone/Thesis
+BSCO,4,2,COE406,Practicum
+BSCO,4,2,COE407,Multimedia Systems
+BSCO,4,2,COE408,Technopreneurship
+BSNU,1,1,NCM100,Theoretical Foundations of Nursing
+BSNU,1,1,MC02,Biochemistry (Lecture)
+BSNU,1,1,NSG2,Anatomy & Physiology (Lecture)
+BSNU,1,1,NSG2L,Anatomy & Physiology (Lab)
+BSNU,1,2,NCM101,Health Assessment
+BSNU,1,2,MC03,Microbiology & Parasitology
+BSNU,1,2,NCM102,Nutrition & Diet Therapy
+BSNU,1,2,PSY101,Psychology / Sociology
+BSNU,2,1,NCM103,Fundamentals of Nursing Practice
+BSNU,2,1,NCM104,Community Health Nursing 1
+BSNU,2,1,PHA101,Pharmacology 1
+BSNU,2,1,NUR101,Nursing Informatics
+BSNU,2,2,NCM105,Maternal & Child Nursing
+BSNU,2,2,NCM106,Nursing Health Assessment
+BSNU,2,2,PHA102,Pharmacology 2
+BSNU,2,2,RLE101,RLE (Related Learning Exp)
+BSNU,3,1,NCM111,Nursing Research 1
+BSNU,3,1,NCM112,Care of Clients (Oxygen/Inflammatory)
+BSNU,3,1,NCM113,Community Health Nursing 2
+BSNU,3,1,NCM114,Care of Older Adult
+BSNU,3,2,NCM115,Nursing Leadership & Management
+BSNU,3,2,NCM116,Psychiatric Nursing
+BSNU,3,2,NCM117,Medical-Surgical Nursing
+BSNU,3,2,NCM118,Disaster Nursing
+BSNU,4,1,NCM119,Intensive Nursing Practicum
+BSNU,4,1,NCM120,IV Therapy
+BSNU,4,1,NCM121,Oncologic Nursing
+BSNU,4,1,FLE101,Foreign Language/Elective
+BSNU,4,2,NCM122,Competency Appraisal
+BSNU,4,2,NCM123,Nursing Research 2 (Thesis/Project)
+BSNU,4,2,NCM124,Clinical Internship (Hospital Duty)
+BSNU,4,2,NCM125,Transcultural Nursing
+BSHM,1,1,HM101,Introduction to Hospitality Management
+BSHM,1,1,HM102,Basic Food Preparation (Lab)
+BSHM,1,1,HM103,Housekeeping Operations
+BSHM,1,1,HM104,Basic Accounting
+BSHM,1,2,HM105,Front Office Services
+BSHM,1,2,HM106,Applied Mathematics
+BSHM,1,2,HM107,Sanitation & Safety
+BSHM,1,2,HM108,Cost Control
+BSHM,2,1,HM201,Food & Beverage Operations
+BSHM,2,1,HM202,Food Service Management
+BSHM,2,1,HM203,Purchasing & Storage
+BSHM,2,1,HM204,Kitchen Operations (Lab)
+BSHM,2,2,HM205,Banquet & Catering Management
+BSHM,2,2,HM206,Bar Management (Mixology)
+BSHM,2,2,HM207,International Cuisine
+BSHM,2,2,HM208,Microbiology (Food Safety)
+BSHM,3,1,HM301,Housekeeping Supervision
+BSHM,3,1,HM302,Sales & Marketing in HM
+BSHM,3,1,HM303,Ergonomics & Facilities
+BSHM,3,1,HM304,Entrepreneurship
+BSHM,3,2,HM305,Tourism & Travel Management
+BSHM,3,2,HM306,Quality Service Management
+BSHM,3,2,HM307,Multicultural Diversity
+BSHM,3,2,HM308,Applied Business Statistics
+BSHM,4,1,HM401,Strategic Management
+BSHM,4,1,HM402,Events Management
+BSHM,4,1,HM403,Legal Aspects in Tourism
+BSHM,4,1,HM404,Research Methods
+BSHM,4,2,HM405,Practicum (OJT) (Local)
+BSHM,4,2,HM406,Practicum (OJT) (International)
+BSHM,4,2,HM407,Feasibility Study
+BSHM,4,2,HM408,Elective (Cruise Line)
+BSTS,1,1,TM101,Introduction to Tourism
+BSTS,1,1,TM102,Philippine Tourism Geography
+BSTS,1,1,TM103,Basic Microeconomics
+BSTS,1,1,TM104,Tourism Marketing
+BSTS,1,2,TM105,World Tourism Geography
+BSTS,1,2,TM106,Micro Perspective of Tourism
+BSTS,1,2,TM107,Local Guiding (Language)
+BSTS,1,2,TM108,Risk Management
+BSTS,2,1,TM201,Tourism Planning & Development
+BSTS,2,1,TM202,Transportation Management
+BSTS,2,1,TM203,Tourism Legislation
+BSTS,2,1,TM204,Ecotourism
+BSTS,2,2,TM205,Sustainable Tourism
+BSTS,2,2,TM206,Tour & Travel Operations
+BSTS,2,2,TM207,MICE (Meetings/Incentives)
+BSTS,2,2,TM208,Tourism Advertising
+BSTS,3,1,TM301,Hospitality Management
+BSTS,3,1,TM302,Airline Ticketing (GDS)
+BSTS,3,1,TM303,Cross-Cultural Studies
+BSTS,3,1,TM304,Research Methods
+BSTS,3,2,TM305,Entrepreneurship in Tourism
+BSTS,3,2,TM306,Tourism Policy & Strategy
+BSTS,3,2,TM307,Social Entrepreneurship
+BSTS,3,2,TM308,Visitor Management
+BSTS,4,1,TM401,Strategic Management
+BSTS,4,1,TM402,Heritage Tourism
+BSTS,4,1,TM403,Dark/Gastronomy Tourism
+BSTS,4,1,TM404,Elective (Cruise/Digital)
+BSTS,4,2,TM405,Practicum (OJT) (Agency/Hotel)
+BSTS,4,2,TM406,Practicum (OJT) (Airline)
+BSTS,4,2,TM407,Tourism Impact Assessment
+BSTS,4,2,TM408,Foreign Language 3

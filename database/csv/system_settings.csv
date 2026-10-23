@@ -1,0 +1,11 @@
+setting_key,setting_value,description
+current_school_year,2024-2025,Current academic year
+current_semester,1st,Current semester
+risk_low_threshold,40,Max score for Low Risk
+risk_moderate_threshold,70,Max score for Moderate Risk
+risk_high_threshold,71,Min score for High Risk
+grade_weight,0.6,Weight for grades in risk score
+attendance_weight,0.4,Weight for attendance in risk score
+attendance_warning_threshold,20,Percentage for warning
+attendance_drop_threshold,30,Percentage for drop
+ai_api_enabled,true,Whether AI API is enabled

@@ -1,0 +1,11 @@
+department_code,code,name,total_students
+SITE,BSIT,BS Information Technology,160
+SITE,BSCS,BS Computer Science,160
+SBA,BSAC,BS Accountancy,160
+SBA,BSBA,BS Business Administration,160
+SOE,BSECE,BS Electronics Engineering,160
+SOE,BSEE,BS Electrical Engineering,160
+SOE,BSCO,BS Computer Engineering,160
+SOHS,BSNU,BS Nursing,160
+SIHM,BSHM,BS Hospitality Management,160
+SIHM,BSTS,BS Tourism Management,160
