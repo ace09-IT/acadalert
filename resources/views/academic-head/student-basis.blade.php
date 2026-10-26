@@ -133,6 +133,12 @@
                     </table>
                 </div>
                 <div class="card-footer bg-transparent small text-muted">
+                    Failing threshold: below 75. Highlighted rows are below threshold.
+                </div>
+            @endif
+        </div>
+    </div>
+
     <!-- Attendance -->
     <div class="card ah-glow mb-4">
         <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
@@ -146,6 +152,13 @@
                     <div>No attendance records for {{ $currentPeriod }} {{ $schoolYear }}.</div>
                 </div>
             @else
+                <div class="px-3 pt-3">
+                    <p class="small text-muted mb-0">
+                        <i class="fas fa-calculator me-1"></i>
+                        <strong>Formula:</strong> Attendance % = (Total Weighted Hours &divide; Total Required Hours) &times; 100
+                        <span class="d-block mt-1">Stored per-subject totals are rounded, so a tiny rounding difference (&le; 0.1%) is possible.</span>
+                    </p>
+                </div>
                 <div class="table-responsive">
                     <table class="table table-hover mb-0">
                         <thead class="table-light">
@@ -153,6 +166,8 @@
                                 <th class="border-bottom fw-semibold">Subject Code</th>
                                 <th class="border-bottom fw-semibold">Subject Name</th>
                                 <th class="border-bottom fw-semibold text-end">Attendance</th>
+                                <th class="border-bottom fw-semibold text-end">Req. Hours</th>
+                                <th class="border-bottom fw-semibold text-end">Weighted Hrs</th>
                                 <th class="border-bottom fw-semibold text-end">Absences</th>
                                 <th class="border-bottom fw-semibold text-end">Lates</th>
                             </tr>
@@ -167,6 +182,8 @@
                                     <td>{{ $att->subject_code ?? '-' }}</td>
                                     <td>{{ $att->subject_name ?? 'Subject' }}</td>
                                     <td class="text-end {{ $poor ? 'text-warning fw-bold' : '' }}">{{ number_format($rate, 2) }}%</td>
+                                    <td class="text-end">{{ number_format((float) ($att->total_required_hours ?? 0), 2) }}</td>
+                                    <td class="text-end">{{ number_format((float) ($att->total_weighted_hours ?? 0), 2) }}</td>
                                     <td class="text-end">{{ (int) ($att->total_absences ?? 0) }}</td>
                                     <td class="text-end">{{ (int) ($att->total_lates ?? 0) }}</td>
                                 </tr>
@@ -177,6 +194,8 @@
                 <div class="card-footer bg-transparent d-flex justify-content-between small">
                     <div>
                         <strong>Overall attendance:</strong> {{ (float) ($attendanceAggregate->overall_attendance ?? 0) }}% &middot;
+                        <strong>Req. hours:</strong> {{ number_format((float) ($attendanceTotals['required_hours'] ?? 0), 2) }} &middot;
+                        <strong>Weighted hrs:</strong> {{ number_format((float) ($attendanceTotals['weighted_hours'] ?? 0), 2) }} &middot;
                         <strong>Absences:</strong> {{ (int) ($attendanceAggregate->total_absences ?? 0) }} &middot;
                         <strong>Lates:</strong> {{ (int) ($attendanceAggregate->total_lates ?? 0) }}
                     </div>
@@ -195,10 +214,4 @@
     </div>
 </div>
 @endsection
-
-                    Failing threshold: below 75. Highlighted rows are below threshold.
-                </div>
-            @endif
-        </div>
-    </div>
 

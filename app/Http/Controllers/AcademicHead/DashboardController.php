@@ -499,6 +499,15 @@ class DashboardController extends Controller
         $attendanceSummaries = app(AttendanceSummaryRepository::class)->subjectSummariesForStudent($studentId, $currentPeriod, $schoolYear);
         $attendanceAggregate = app(AttendanceSummaryRepository::class)->aggregateForStudent($studentId, $currentPeriod, $schoolYear);
 
+        // Expose the raw hours behind each attendance percentage so the weighted
+        // math is transparent: rate = weighted_hours / required_hours * 100.
+        // The per-subject total_required_hours / total_weighted_hours travel with
+        // each row in $attendanceSummaries; here they are aggregated for the footer.
+        $attendanceTotals = [
+            'required_hours' => round((float) $attendanceSummaries->sum('total_required_hours'), 2),
+            'weighted_hours' => round((float) $attendanceSummaries->sum('total_weighted_hours'), 2),
+        ];
+
         $risk = app(RiskScoreRepository::class)->forStudentPeriod($studentId, $currentPeriod, $schoolYear);
         $riskScore = $risk ? (int) $risk->risk_score : 0;
         $riskLevel = $risk ? (string) $risk->risk_level : 'No Data';
@@ -517,6 +526,7 @@ class DashboardController extends Controller
             'grades' => $grades,
             'attendanceSummaries' => $attendanceSummaries,
             'attendanceAggregate' => $attendanceAggregate,
+            'attendanceTotals' => $attendanceTotals,
             'riskScore' => $riskScore,
             'riskLevel' => $riskLevel,
             'riskBadgeClass' => $riskBadgeClass,
